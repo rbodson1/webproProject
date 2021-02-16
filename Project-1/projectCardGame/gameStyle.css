@@ -2,7 +2,7 @@
 
 .mainDiv {
     height: 620px;
-    background-image: url("./img/background.png");
+    background-color: rgb(83, 83, 20);
     border: 5px solid red;
 }
 
@@ -25,7 +25,7 @@
 
 #img1 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -44,7 +44,7 @@
 
 #img2 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -63,7 +63,7 @@
 
 #img3 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -72,7 +72,7 @@
 #img3:hover {
     width: 4in;
     height: 1.21in;
-    background-image: url("");
+    background-image: url("./img/img3.png");
     /* HOVER ON */
     -webkit-transition: 1s;
 }
@@ -82,7 +82,7 @@
 
 #img4 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -101,7 +101,7 @@
 
 #img5 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -120,7 +120,7 @@
 
 #img6 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -139,7 +139,7 @@
 
 #img7 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -158,7 +158,7 @@
 
 #img8 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -177,7 +177,7 @@
 
 #img9 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -196,7 +196,7 @@
 
 #img10 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -215,7 +215,7 @@
 
 #img11 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -234,7 +234,7 @@
 
 #img12 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -253,7 +253,7 @@
 
 #img13 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -272,7 +272,7 @@
 
 #img14 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -291,7 +291,7 @@
 
 #img15 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -310,7 +310,7 @@
 
 #img16 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -329,7 +329,7 @@
 
 #img17 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -348,7 +348,7 @@
 
 #img18 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -367,7 +367,7 @@
 
 #img19 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -386,7 +386,7 @@
 
 #img20 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -405,7 +405,7 @@
 
 #img21 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -424,7 +424,7 @@
 
 #img22 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -443,7 +443,7 @@
 
 #img23 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -462,7 +462,7 @@
 
 #img24 {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -481,14 +481,14 @@
 
 #bonus {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 1s;
 }
 
 #bonus:hover {
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     background-image: url("./img/bonus.png");
     /* HOVER ON */
@@ -500,7 +500,7 @@
 
 #tortoise {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 30s;
@@ -519,7 +519,7 @@
 
 #flash {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
     -webkit-transition: 10s;
@@ -538,14 +538,14 @@
 
 #gameOver {
     background-image: url("./img/back.png");
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
-    -webkit-transition: 30s;
+    transition-duration: 200s;
 }
 
 #gameOver:hover {
-    width: 4in;
+    width: 4.7in;
     height: 1.21in;
     background-image: url("./img/gameOver.png");
     /* HOVER ON */
