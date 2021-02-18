@@ -9,6 +9,11 @@
 .container {
     display: flex;
     height: 10px;
+
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .container>div {
@@ -427,7 +432,7 @@
     width: 4.7in;
     height: 1.21in;
     /* HOVER OFF */
-    -webkit-transition: 30s;
+    -webkit-transition: 5s;
 }
 
 #img22:hover {
