@@ -586,7 +586,12 @@ body {
     float: right;
     margin-left: 10px;
 }
-
+.bottom {
+    bottom: 0;
+    float: right;
+    position: absolute;
+    left: 92%;
+}
 span {
     color: red;
     font-weight: bolder;
