@@ -1,598 +1,477 @@
 /*gameStyleSheet*/
-body {
-    background-color: #84dd0f;
-    animation: color-me-in 5s;
-}
-@keyframes color-me-in {
-    0%  {
-        background-color: rgb(137, 15, 236);
-    }
 
-    100% {
-        background-color: palegreen;
-    }
+html,
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+    height: 100%;
+    margin: 0;
+    background-image: url("img2/background2.jpg");
+    background-size: cover;
 }
 
 .mainDiv {
-    height: 620px;
-    background-color: rgb(83, 83, 20);
-    border: 5px solid red;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url("img2/background2.jpg");
+    background-size: cover;
+    /*background-color: rgb(83, 83, 20);*/
+    /*border: 5px solid red;*/
+    overflow: auto;
 }
 
-.container {
-    display: flex;
-    height: 10px;
-}
-
-.pointer {
-    cursor: pointer;
-}
-
-.container>div {
-    /*grow*/
+#row1,
+#row2,
+#row3 {
+    height: 230px;
+    width: auto;
+    /*border: 3px solid yellow;*/
+    overflow: auto;
+    margin: 0px auto;
 }
 
 .border {
-    width: 100%;
-    height: 100%;
-}
-
-
-/*image 1*/
-
-#img1 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    -webkit-transition: 30s;
-}
-
-#img1:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img1.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 2*/
-
-#img2 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img2:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img2.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 3*/
-
-#img3 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img3:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img3.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 4*/
-
-#img4 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img4:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img4.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 5*/
-
-#img5 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img5:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img5.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 6*/
-
-#img6 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img6:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img6.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 7*/
-
-#img7 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img7:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img7.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 8*/
-
-#img8 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img8:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img8.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 9*/
-
-#img9 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img9:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img9.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 10*/
-
-#img10 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img10:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img10.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 11*/
-
-#img11 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img11:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img11.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 12*/
-
-#img12 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img12:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img12.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 13*/
-
-#img13 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img13:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img13.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 14*/
-
-#img14 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img14:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img14.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 15*/
-
-#img15 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img15:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img15.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 16*/
-
-#img16 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img16:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img16.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 17*/
-
-#img17 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img17:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img17.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 18*/
-
-#img18 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img18:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img18.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 19*/
-
-#img19 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img19:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img19.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 20*/
-
-#img20 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img20:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img20.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 21*/
-
-#img21 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img21:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img21.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 22*/
-
-#img22 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 5s;
-}
-
-#img22:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img22.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 23*/
-
-#img23 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img23:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img23.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*image 24*/
-
-#img24 {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#img24:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/img24.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*bonus*/
-
-#bonus {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 1s;
-}
-
-#bonus:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/bonus.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*tortoise*/
-
-#tortoise {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 30s;
-}
-
-#tortoise:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/tortoise.png");
-    /* HOVER ON */
-    transition-duration: 10s;
-}
-
-
-/*The Flash*/
-
-#flash {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 10s;
-}
-
-#flash:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/flash.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-
-/*Game Over*/
-
-#gameOver {
-    background-image: url("./img/back.png");
-    width: 4.7in;
-    height: 1.21in;
-    /* HOVER OFF */
-    transition-duration: 200s;
-}
-
-#gameOver:hover {
-    width: 4.7in;
-    height: 1.21in;
-    background-image: url("./img/gameOver.png");
-    /* HOVER ON */
-    transition-duration: 1s;
-}
-
-.score {
-    width: 100px;
-    background-color: #e8f5e6;
-    border: 5px solid #00990d;
-}
-
-.howToPlay {
-    width: 800px;
-    background-color: #f5ede6;
-    border: 5px solid #cfdd0f;
+    margin: 0px 0px 0px 55px;
+    /*border: 3px solid green;*/
+    width: 8%;
+    height: 160px;
     float: left;
 }
 
-.obstacle {
-    float: right;
-    margin-left: 10px;
+#exit {
+    clear: left;
+    height: 10%;
+    width: auto;
+    /*border: 2px solid lightgreen;*/
 }
-.bottom {
-    bottom: 0;
-    float: right;
-    position: absolute;
-    left: 92%;
+
+p {
+    /* border: 2px solid black;*/
+    margin: 0;
+    height: 50%;
+    width: auto;
+    animation: left-to-right 7s ease-in-out forwards infinite alternate;
 }
-span {
-    color: red;
-    font-weight: bolder;
+
+#exit:hover p {
+    animation-play-state: paused;
+}
+
+
+/* ANIMATIONS*/
+
+@keyframes left-to-right {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    25% {
+        /* background-color: rgb(6, 83, 111);*/
+        transform: translate(0%, 100%);
+    }
+    50% {
+        transform: translate(70%, 100%);
+    }
+    75% {
+        transform: translate(70%, 0%);
+    }
+    100% {
+        /*background-color: rgb(205, 117, 50);*/
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes Ushape {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateY(40%);
+    }
+    50% {
+        transform: translate(40%, 0%);
+    }
+    75% {
+        transform: translate(40%, 40%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+
+/*--------------  Same Attributes  -----------------------*/
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#card8,
+#card9,
+#card10,
+#card11,
+#card12,
+#card13,
+#card14,
+#card15,
+#card16,
+#card17,
+#card18,
+#card19,
+#card20,
+#card21,
+#card22,
+#card23,
+#card24 {
+    width: 100%;
+    height: 100%;
+    background-image: url("img2/back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+
+/*------------- ROW 1 --------------------*/
+
+
+/*Card 1*/
+
+#card1 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card1 {
+    background-image: url("img2/gokuMentor.png");
+    /*transform: translate(40%,0%);*/
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 2*/
+
+#card2 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card2 {
+    background-image: url("img2/KND4.png");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+#card3 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card3 {
+    background-image: url("img2/PerryPlatypus.png");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/* Card 4*/
+
+#card4 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card4 {
+    background-image: url("img2/Tom&Jerry&Dog.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+#card5 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card5 {
+    background-image: url("img2/gokuPeace.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 6*/
+
+#card6 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card6 {
+    background-image: url("img2/KNDall.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 7*/
+
+#card7 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card7 {
+    background-image: url("img2/Phineas&Ferb.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 8*/
+
+#card8 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card8 {
+    background-image: url("img2/Tom&JerryFight.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*---------- ROW 2 ----------------*/
+
+
+/*Card 9*/
+
+#card9 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card9 {
+    background-image: url("img2/greenMan.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 10*/
+
+#card10 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card10 {
+    background-image: url("img2/KNDevil.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 11*/
+
+#card11 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card11 {
+    background-image: url("img2/Phineas&FerbRollerCoaster.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 12*/
+
+#card12 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card12 {
+    background-image: url("img2/Tom&JerryLove.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 13*/
+
+#card13 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card13 {
+    background-image: url("img2/Phineas&Ferb.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 14*/
+
+#card14 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card14 {
+    background-image: url("img2/gokuPeace.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 15*/
+
+#card15 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card15 {
+    background-image: url("img2/Tom&JerryFight.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 16*/
+
+#card16 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card16 {
+    background-image: url("img2/KNDall.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*---------- ROW 3 ----------------*/
+
+
+/*Card 17*/
+
+#card17 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card17 {
+    background-image: url("img2/gokuMentor.png");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 18*/
+
+#card18 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card18 {
+    background-image: url("img2/KND4.png");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 19*/
+
+#card19 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card19 {
+    background-image: url("img2/Tom&Jerry&Dog.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 20*/
+
+#card20 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card20 {
+    background-image: url("img2/PerryPlatypus.png");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 21*/
+
+#card21 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card21 {
+    background-image: url("img2/KNDevil.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 22*/
+
+#card22 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card22 {
+    background-image: url("img2/greenMan.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 23*/
+
+#card23 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card23 {
+    background-image: url("img2/Tom&JerryLove.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
+}
+
+
+/*Card 24*/
+
+#card24 {
+    /*Hover off*/
+    transition-duration: 15s;
+}
+
+.border:hover #card24 {
+    background-image: url("img2/Phineas&FerbRollerCoaster.jpg");
+    animation: Ushape 2s forwards 1;
+    transition-duration: 1s;
 }
