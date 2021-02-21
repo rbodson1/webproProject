@@ -4,16 +4,21 @@
 <head>
     <title>Project Info</title>
     <style>
-            html {
+        html {
             height: 100%;
         }
         
         body {
             margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         
         li {
             font-weight: bold;
+        }
+        
+        .sublist li {
+            font-weight: normal;
         }
         
         .bg {
@@ -45,9 +50,14 @@
             left: 50%;
             padding: 10vmin;
             position: fixed;
-            text-align: center;
+            text-align: left;
             top: 50%;
             transform: translate(-50%, -50%);
+        }
+        
+        #info {
+            margin-left: auto;
+            margin-right: auto;
         }
         
         h1 {
@@ -63,13 +73,12 @@
             }
         }
         
-        div {
-            .bottom {
-                bottom: 0;
-                float: right;
-                position: absolute;
-                left: 92%;
-            }
+        div.bottom {
+            bottom: 0;
+            float: right;
+            position: absolute;
+            left: 92%;
+        }
     </style>
 </head>
 
@@ -79,37 +88,66 @@
     <div class="bg bg3"></div>
     <div class="content">
         <h1>Project Details</h1>
-        <div>
+        <div id="info">
             <ol>
                 <li>Project Leader</li>
                 <p>Abdullah Shehata</p>
+
                 <li>Project Name:</li>
-                <p>Matching Card Game</p>
+                <p>FlashBack</p>
 
                 <li>Description:</li>
                 <p>Given deck of cards, hover over a card and try to find its match.</p>
+
                 <li>Team Members:</li>
-                <p>Abdullah Shehata, Rachid Bodson, Michael Oroyo, Umang Choudhari</p>
+                <p>Shehata Abdullah, Bodson Rachid , Oroyo Michael , Choudhari Umang </p>
+
                 <li>Team Members Actions:</li>
                 <ul>
                     <li>
-                        Abdullah Shehata
+                        Shehata Abdullah
+                        <ul class="sublist">
+                            <li>
+                                Worked on the game page(HTML, CSS)
+                            </li>
+                            <li>
+                                Some editing on this current page
+                            </li>
+                            <li>
+                                Worked on the power point
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        Rachid Bodson
+                        Bodson Rachid
+                        <ul class="sublist">
+                            <li>
+                                Helped work on the game page(HTML, CSS)
+                            </li>
+                            <li>
+                                Some editing on this current page
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        Michael Oroyo
+                        Oroyo Michael
+                        <ul class="sublist">
+                            <li>
+                                Worked on this page(HTML, CSS)
+                            </li>
+                            <li>
+                                Worked on the power point
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        Umang Choudhari
+                        Choudhari Umang
                     </li>
                 </ul>
             </ol>
-            <div><a href=cardGame.html>continue to game</a></div>
+            <div id="link"><a href=cardGame.html>continue to game</a></div>
         </div>
     </div>
-
 </body>
 
 </html>
